@@ -128,8 +128,13 @@
                                             </li>
                                         </ul>
                                     </li>
+                                    @if(User.Identity.IsAuthenticated) {
                                         <li><a asp-controller="Home" asp-action="Myaccount">My Account</a></li>
-                                        <li><a asp-controller="Auth" asp-action="Login">Login | Register</a></li>
+                                        <li><a asp-controller="Auth" asp-action="Logout">Logout</a></li>
+                                    } else
+                                    {
+                                       <li><a asp-controller="Auth" asp-action="Login">Login | Register</a></li>
+                                    }
                                     @* <li>
                                         <a href="my-account.html">My Account<i class="fa fa-chevron-down"></i></a>
                                         <ul class="ht-dropdown ht-my_account">
@@ -149,7 +154,7 @@
                 <div class="row">
                     <div class="custom-logo_col col-12">
                         <div class="header-logo_area">
-                            <a href="index.html">
+                                <a asp-controller="Home" asp-action="Index">
                                 <img src="~/website/assets/images/menu/logo/1.png" alt="Uren's Logo">
                             </a>
                         </div>

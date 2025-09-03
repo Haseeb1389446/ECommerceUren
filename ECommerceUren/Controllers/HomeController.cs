@@ -21,12 +21,22 @@ namespace ECommerceUren.Controllers
             return View();
         }
 
+        public IActionResult Detailpage()
+        {
+            return View();
+        }
+
         public IActionResult Contact()
         {
             return View();
         }
 
         public IActionResult Blog()
+        {
+            return View();
+        }
+
+        public IActionResult Blogdetail()
         {
             return View();
         }

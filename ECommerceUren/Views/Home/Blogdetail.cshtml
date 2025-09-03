@@ -1,0 +1,299 @@
+﻿
+@{
+    ViewData["Title"] = "Blogdetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Begin Uren's Breadcrumb Area -->
+<div class="breadcrumb-area">
+    <div class="container">
+        <div class="breadcrumb-content">
+            <h2>Blog Details</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Left Sidebar</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Uren's Breadcrumb Area End Here -->
+<!-- Begin Uren's Blog Details Left Sidebar Area -->
+<div class="uren-blog_area uren-blog-details">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 order-lg-1 order-2">
+                <div class="uren-blog-sidebar-wrapper">
+                    <div class="uren-blog-sidebar">
+                        <h4 class="uren-blog-sidebar-title">Search</h4>
+                        <div class="search-form_area">
+                            <form class="search-form" action="javascript:void(0)">
+                                <input type="text" class="search-field" placeholder="search here">
+                                <button type="submit" class="search-btn"><i class="ion-ios-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="uren-blog-sidebar">
+                        <h4 class="uren-blog-sidebar-title">Archives</h4>
+                        <ul class="uren-blog-archive">
+                            <li><a href="javascript:void(0)">September 2019</a></li>
+                        </ul>
+                    </div>
+                    <div class="uren-blog-sidebar">
+                        <h4 class="uren-blog-sidebar-title">Recent Posts</h4>
+                        <div class="recent-post">
+                            <div class="recent-post_thumb">
+                                <a asp-controller="Home" asp-action="Blogdetail">
+                                    <img class="img-full" src="~/website/assets/images/blog/large-size/1.jpg" alt="Uren's Blog Image">
+                                </a>
+                            </div>
+                            <div class="recent-post_desc">
+                                <span><a asp-controller="Home" asp-action="Blogdetail">Ut eum laborum</a></span>
+                                <span class="post-date">September 25,2019</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post_thumb">
+                                <a asp-controller="Home" asp-action="Blogdetail">
+                                    <img class="img-full" src="~/website/assets/images/blog/large-size/2.jpg" alt="Uren's Blog Image">
+                                </a>
+                            </div>
+                            <div class="recent-post_desc">
+                                <span><a href="blog-gallery-format.html">Soluta ad tempore</a></span>
+                                <span class="post-date">September 24,2019</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post_thumb">
+                                <a asp-controller="Home" asp-action="Blogdetail">
+                                    <img class="img-full" src="~/website/assets/images/blog/large-size/3.jpg" alt="Uren's Blog Image">
+                                </a>
+                            </div>
+                            <div class="recent-post_desc">
+                                <span><a asp-controller="Home" asp-action="Blogdetail">Possimus reiciendis</a></span>
+                                <span class="post-date">September 24,2019</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post_thumb">
+                                <a asp-controller="Home" asp-action="Blogdetail">
+                                    <img class="img-full" src="~/website/assets/images/blog/large-size/4.jpg" alt="Uren's Blog Image">
+                                </a>
+                            </div>
+                            <div class="recent-post_desc">
+                                <span><a asp-controller="Home" asp-action="Blogdetail">Tortor Posuere</a></span>
+                                <span class="post-date">September 24,2019</span>
+                            </div>
+                        </div>
+                        <div class="recent-post">
+                            <div class="recent-post_thumb">
+                                <a asp-controller="Home" asp-action="Blogdetail">
+                                    <img class="img-full" src="~/website/assets/images/blog/large-size/5.jpg" alt="Uren's Blog Image">
+                                </a>
+                            </div>
+                            <div class="recent-post_desc">
+                                <span><a asp-controller="Home" asp-action="Blogdetail">Hello World!</a></span>
+                                <span class="post-date">September 24,2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uren-blog-sidebar">
+                        <h4 class="uren-blog-sidebar-title">Comments</h4>
+                        <div class="recent-comment">
+                            <div class="user-img">
+                                <img class="img-full" src="~/website/assets/images/blog/admin.jpg" alt="Uren's Blog Image">
+                            </div>
+                            <div class="user-info">
+                                <span>HasTech say:</span>
+                                <a href="javascipt:void(0)">Nulla auctor mi vel nisl...</a>
+                            </div>
+                        </div>
+                        <div class="recent-comment">
+                            <div class="user-img">
+                                <img class="img-full" src="~/website/assets/images/blog/user.jpg" alt="Uren's Blog Image">
+                            </div>
+                            <div class="user-info">
+                                <span>Kathy Young say:</span>
+                                <a href="javascipt:void(0)">Mauris Venenatis Orci Quis...</a>
+                            </div>
+                        </div>
+                        <div class="recent-comment">
+                            <div class="user-img">
+                                <img class="img-full" src="~/website/assets/images/blog/admin.jpg" alt="Uren's Blog Image">
+                            </div>
+                            <div class="user-info">
+                                <span>HasTech say:</span>
+                                <a href="javascipt:void(0)">Quisque Semper Nunc Vitae...</a>
+                            </div>
+                        </div>
+                        <div class="recent-comment">
+                            <div class="user-img">
+                                <img class="img-full" src="~/website/assets/images/blog/user.jpg" alt="Uren's Blog Image">
+                            </div>
+                            <div class="user-info">
+                                <span>Kathy Young say:</span>
+                                <a href="javascipt:void(0)">Thanks for the information, anyway :)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uren-blog-sidebar">
+                        <h4 class="uren-blog-sidebar-title">Tags</h4>
+                        <ul class="uren-tags_list">
+                            <li><a href="javascript:void(0)">Sports</a></li>
+                            <li><a href="javascript:void(0)">Car</a></li>
+                            <li><a href="javascript:void(0)">Vehicle</a></li>
+                            <li><a href="javascript:void(0)">Bike</a></li>
+                            <li><a href="javascript:void(0)">Motorcycle</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 order-lg-2 order-1">
+                <div class="blog-item">
+                    <div class="blog-img img-hover_effect">
+                        <a asp-controller="Home" asp-action="Blogdetail">
+                            <img src="~/website/assets/images/blog/large-size/1.jpg" alt="Uren's Blog Image">
+                        </a>
+                        <span class="post-date">12-09-19</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3><a asp-controller="Home" asp-action="Blogdetail">Blog Image Post</a></h3>
+                        <p>Fugiat, quidem praesentium aliquam laboriosam possimus labore quaerat voluptatibus corrupti omnis. Officia dolor perferendis, corporis sapiente tenetur vel quae distinctio aliquam omnis nobis eaque blanditiis ipsum sint porro ex aut optio assumenda consequuntur molestiae nostrum. Quasi atque nam autem iure, delectus a sed pariatur molestias laboriosam tempora?</p>
+                        <div class="uren-btn-ps_left">
+                            <a class="uren-btn-2" asp-controller="Home" asp-action="Blogdetail">Read More</a>
+                        </div>
+                    </div>
+                    <div class="uren-blog-blockquote">
+                        <blockquote>
+                            <p>
+                                Saepe nisi voluptas vero blanditiis dolorem quis quia facere exercitationem minima perferendis excepturi perspiciatis reiciendis possimus ex eveniet, quisquam ad modi aut earum asperiores quibusdam harum totam quas sunt! Atque corrupti delectus laudantium dolore consequatur. Delectus earum vero quia necessitatibus perferendis itaque, nisi maxime nobis porro dolorum assumenda ut saepe consectetur praesentium, aliquam minima eaque inventore minus sunt rem incidunt corrupti pariatur autem ipsa. Itaque, quaerat sint omnis nesciunt iste deleniti molestiae, maiores laudantium a possimus aspernatur, amet unde facere incidunt quo nisi libero nam! Distinctio laborum nobis quaerat repudiandae placeat recusandae nesciunt quo perferendis ducimus incidunt fugit cumque voluptatem nisi ea atque fuga architecto pariatur magni neque reiciendis temporibus, porro cupiditate! Debitis illo ducimus optio iste explicabo consectetur maxime corporis, ipsam id fugiat enim voluptatem laboriosam eum voluptates molestiae deserunt nobis hic, sed nostrum! Earum perferendis veritatis corrupti ad nam veniam.
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="blog-additional_information">
+                        <p>
+                            Aspernatur autem dolores optio dolore temporibus voluptatem ut ad nulla dolor eligendi ipsum eum, aperiam officia debitis quasi? Voluptas, perspiciatis assumenda perferendis cumque quaerat, exercitationem quas dolorem tenetur molestias neque ratione modi nemo ex, suscipit sed obcaecati nam recusandae eum itaque unde.
+                        </p>
+                    </div>
+                    <div class="uren-tag-line">
+                        <h4>Tag:</h4>
+                        <a href="javascript:void(0)">Motorcycle</a>,
+                        <a href="javascript:void(0)">Vehicle</a>,
+                        <a href="javascript:void(0)">Sports</a>
+                    </div>
+                    <div class="uren-social_link">
+                        <ul>
+                            <li class="facebook">
+                                <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="twitter">
+                                <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </li>
+                            <li class="google-plus">
+                                <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
+                                    <i class="fab fa-google-plus"></i>
+                                </a>
+                            </li>
+                            <li class="instagram">
+                                <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uren-comment-section">
+                        <h3>03 comment</h3>
+                        <ul>
+                            <li>
+                                <div class="author-avatar">
+                                    <img src="~/website/assets/images/blog/user.jpg" alt="User">
+                                </div>
+                                <div class="comment-body">
+                                    <span class="reply-btn"><a href="javascript:void(0)">reply</a></span>
+                                    <h5 class="comment-author">Anny Adams</h5>
+                                    <div class="comment-post-date">
+                                        25 September, 2019 at 10:30am
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci
+                                        optio ex,
+                                        laboriosam
+                                        facilis non pariatur itaque illo sunt?
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="comment-children">
+                                <div class="author-avatar">
+                                    <img src="~/website/assets/images/blog/admin.jpg" alt="Admin">
+                                </div>
+                                <div class="comment-body">
+                                    <span class="reply-btn"><a href="javascript:void(0)">reply</a></span>
+                                    <h5 class="comment-author">Edwin Adams</h5>
+                                    <div class="comment-post-date">
+                                        25 September, 2019 at 11:00am
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim maiores adipisci
+                                        optio ex,
+                                        laboriosam
+                                        facilis non pariatur itaque illo sunt?
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="author-avatar">
+                                    <img src="~/website/assets/images/blog/user.jpg" alt="User">
+                                </div>
+                                <div class="comment-body">
+                                    <span class="reply-btn"><a href="javascript:void(0)">reply</a></span>
+                                    <h5 class="comment-author">Anny Adams</h5>
+                                    <div class="comment-post-date">
+                                        25 September, 2019 at 06:50pm
+                                    </div>
+                                    <p>Thank You :)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uren-blog-comment-wrapper">
+                        <h3>leave a reply</h3>
+                        <p>Your email address will not be published. Required fields are marked *</p>
+                        <form action="javascript:void(0)">
+                            <div class="comment-post-box">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <label>comment</label>
+                                        <textarea name="commnet" placeholder="Write a comment"></textarea>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <label>Name</label>
+                                        <input type="text" class="coment-field" placeholder="Name">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <label>Email</label>
+                                        <input type="text" class="coment-field" placeholder="Email">
+                                    </div>
+                                    <div class="col-lg-4 col-md-4">
+                                        <label>Website</label>
+                                        <input type="text" class="coment-field" placeholder="Website">
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="comment-btn_wrap f-left">
+                                            <div class="uren-post-btn_area">
+                                                <a class="uren-btn-2" href="javascript:void(0)">Post comment</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Uren's Blog Details Left Sidebar Area End Here -->

@@ -4,6 +4,8 @@
     Layout = "~/Views/Shared/_AuthLayout.cshtml";
 }
 
+@model ECommerceUren.Models.ViewModels.LoginViewModel;
+
 <div class="loader"></div>
 <div id="app">
     <section class="section">
@@ -15,10 +17,12 @@
                             <h4>Login</h4>
                         </div>
                         <div class="card-body">
-                            <form method="POST" action="#" class="needs-validation" novalidate="">
+                            <form method="POST" asp-controller="Auth" asp-action="Login" class="needs-validation">
+                                <div asp-validation-summary="ModelOnly"></div>
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
+                                    <input id="email" class="form-control" asp-for="Email" autofocus>
+                                    <span style="color:red;" asp-validation-for="Email"></span>
                                     <div class="invalid-feedback">
                                         Please fill in your email
                                     </div>
@@ -27,19 +31,20 @@
                                     <div class="d-block">
                                         <label for="password" class="control-label">Password</label>
                                         <div class="float-right">
-                                            <a href="auth-forgot-password.html" class="text-small">
+                                            <a asp-controller="Auth" asp-action="Forgetpassword" class="text-small">
                                                 Forgot Password?
                                             </a>
                                         </div>
                                     </div>
-                                    <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
+                                    <input id="password" asp-for="Password" class="form-control">
+                                    <span style="color:red;" asp-validation-for="Password"></span>
                                     <div class="invalid-feedback">
                                         please fill in your password
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
+                                        <input type="checkbox" asp-for="RememberMe" class="custom-control-input" id="remember-me">
                                         <label class="custom-control-label" for="remember-me">Remember Me</label>
                                     </div>
                                 </div>
