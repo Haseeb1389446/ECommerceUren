@@ -1,6 +1,7 @@
 ﻿using ECommerceUren.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
@@ -102,9 +103,47 @@ namespace ECommerceUren.Controllers
             return View();
         }
 
-        public IActionResult Resetpassword()
+        [HttpPost]
+        public async Task<IActionResult> Forgetpassword(ForgetPasswordViewModel model)
         {
+            if (ModelState.IsValid) { 
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if(user != null)
+                {               
+                    return RedirectToAction("Resetpassword", new {uId = user.Id});
+                }
+                return View();
+            }
+            return View(model);
+        }
+
+        public async Task<IActionResult> Resetpassword(string uId)
+        {
+            var user = await _userManager.FindByIdAsync(uId);
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user!);
+            if (user != null) {
+                ResetPasswordViewModel model = new()
+                {
+                    Email = user.Email!,
+                    ResetPasswordToken = token
+                };
+                return View(model);
+            }
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Resetpassword(ResetPasswordViewModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            var rezult = await _userManager.ResetPasswordAsync(user!, model.ResetPasswordToken, model.Password);
+
+            if (rezult.Succeeded)
+            {
+                return RedirectToAction("Login");
+            }
+
+            return View(model);
         }
 
         public IActionResult Logout()

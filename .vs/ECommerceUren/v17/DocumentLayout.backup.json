@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\views\\auth\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\models\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\models\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\views\\auth\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\views\\auth\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\models\\viewmodels\\forgetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\models\\viewmodels\\forgetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|f:\\code criteria\\projects\\ecommerceuren\\ecommerceuren\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3267BD25-1BAC-4825-9E10-B573B24EEDAC}|ECommerceUren\\ECommerceUren.csproj|solutionrelative:ecommerceuren\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +58,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ECommerceUren\\Controllers\\CategoryController.cs",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ECommerceUren\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T06:55:35.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Resetpassword.cshtml",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Resetpassword.cshtml",
+              "RelativeDocumentMoniker": "ECommerceUren\\Views\\Auth\\Resetpassword.cshtml",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Resetpassword.cshtml",
+              "RelativeToolTip": "ECommerceUren\\Views\\Auth\\Resetpassword.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T05:16:47.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Forgetpassword.cshtml",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Forgetpassword.cshtml",
+              "RelativeDocumentMoniker": "ECommerceUren\\Views\\Auth\\Forgetpassword.cshtml",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Forgetpassword.cshtml",
+              "RelativeToolTip": "ECommerceUren\\Views\\Auth\\Forgetpassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T03:03:49.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ECommerceUren\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "ECommerceUren\\Models\\ViewModels\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T03:02:13.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgetPasswordViewModel.cs",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\ForgetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ECommerceUren\\Models\\ViewModels\\ForgetPasswordViewModel.cs",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\ForgetPasswordViewModel.cs",
+              "RelativeToolTip": "ECommerceUren\\Models\\ViewModels\\ForgetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T03:01:30.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "ECommerceUren\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "ECommerceUren\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAqwPEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-05T02:02:50.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerceUren\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ECommerceUren\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIcAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAqwIQAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-03T07:50:25.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "ECommerceUren\\Views\\Auth\\Login.cshtml",
@@ -59,12 +161,11 @@
               "RelativeToolTip": "ECommerceUren\\Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T05:57:19.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T05:57:19.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ECommerceUren\\Models\\ViewModels\\LoginViewModel.cs",
@@ -72,38 +173,37 @@
               "RelativeToolTip": "ECommerceUren\\Models\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T05:41:40.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T05:41:40.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ECommerceUren\\Controllers\\AuthController.cs",
               "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Controllers\\AuthController.cs",
               "RelativeToolTip": "ECommerceUren\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwIgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T05:16:58.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ECommerceUren\\Models\\ViewModels\\RegisterViewModel.cs",
               "ToolTip": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeToolTip": "ECommerceUren\\Models\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T05:15:25.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Register.cshtml",
               "DocumentMoniker": "F:\\CODE CRITERIA\\PROJECTS\\ECommerceUren\\ECommerceUren\\Views\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "ECommerceUren\\Views\\Auth\\Register.cshtml",
@@ -111,8 +211,7 @@
               "RelativeToolTip": "ECommerceUren\\Views\\Auth\\Register.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T05:12:31.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T05:12:31.879Z"
             }
           ]
         }
