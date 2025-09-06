@@ -15,6 +15,28 @@
     <!-- Custom style CSS -->
     <link rel="stylesheet" href="~/dashboard/assets/css/custom.css">
     <link rel='shortcut icon' type='image/x-icon' href='~/dashboard/assets/img/favicon.ico' />
+
+    <!-- General JS Scripts -->
+    <script src="~/dashboard/assets/js/app.min.js"></script>
+    <!-- JS Libraies -->
+    <script src="~/dashboard/assets/bundles/apexcharts/apexcharts.min.js"></script>
+    <!-- Page Specific JS File -->
+    <script src="~/dashboard/assets/js/page/index.js"></script>
+    <!-- Template JS File -->
+    <script src="~/dashboard/assets/js/scripts.js"></script>
+    <!-- Custom JS File -->
+    <script src="~/dashboard/assets/js/custom.js"></script>
+
+    <!-- Page Specific JS File -->
+    <script src="~/dashboard/assets/bundles/datatables/datatables.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/dataTables.buttons.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/buttons.flash.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/jszip.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/pdfmake.min.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/vfs_fonts.js"></script>
+    <script src="~/dashboard/assets/bundles/datatables/export-tables/buttons.print.min.js"></script>
+    <script src="~/dashboard/assets/js/page/datatables.js"></script>
 </head>
 
 <body>
@@ -247,7 +269,7 @@
                     </li>
                 </ul>
             </nav>
-    <div>
+            <div>
                 <div class="main-sidebar sidebar-style-2">
                     <aside id="sidebar-wrapper">
                         <div class="sidebar-brand">
@@ -259,6 +281,24 @@
                             <li class="menu-header">Main</li>
                             <li class="dropdown active">
                                 <a href="index.html" class="nav-link"><i data-feather="monitor"></i><span>Dashboard</span></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="menu-toggle nav-link has-dropdown">
+                                    <i data-feather="briefcase"></i><span>Categories</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link" asp-controller="Category" asp-action="Index">Show Categories</a></li>
+                                    <li><a class="nav-link" asp-controller="Category" asp-action="Create">Add Categories</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="menu-toggle nav-link has-dropdown">
+                                    <i data-feather="briefcase"></i><span>Products</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="nav-link" asp-controller="Product" asp-action="Index">Show Products</a></li>
+                                    <li><a class="nav-link" asp-controller="Product" asp-action="Create">Add Products</a></li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="menu-toggle nav-link has-dropdown">
@@ -481,9 +521,9 @@
                         </ul>
                     </aside>
                 </div>
-    <div>
-        @RenderBody()
-    </div>
+                <div>
+                    @RenderBody()
+                </div>
                 <footer class="main-footer">
                     <div class="footer-left">
                         <a href="templateshub.net">Templateshub</a>
@@ -493,17 +533,7 @@
                 </footer>
             </div>
         </div>
-        </div>
-        <!-- General JS Scripts -->
-        <script src="~/dashboard/assets/js/app.min.js"></script>
-        <!-- JS Libraies -->
-        <script src="~/dashboard/assets/bundles/apexcharts/apexcharts.min.js"></script>
-        <!-- Page Specific JS File -->
-        <script src="~/dashboard/assets/js/page/index.js"></script>
-        <!-- Template JS File -->
-        <script src="~/dashboard/assets/js/scripts.js"></script>
-        <!-- Custom JS File -->
-        <script src="~/dashboard/assets/js/custom.js"></script>
+    </div>
 </body>
 
 

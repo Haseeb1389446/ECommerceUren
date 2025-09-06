@@ -1,28 +1,32 @@
-﻿@model IEnumerable<ECommerceUren.Models.Category>
+﻿@model IEnumerable<ECommerceUren.Models.Product>
 
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_DashboardLayout.cshtml";
 }
 
-<!-- Main Content -->
 <div class="main-content">
+
     <section class="section">
         <div class="section-body">
             <div class="row">
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h4>All Categories</h4>
+                            <h4>All Products</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-striped table-hover" id="tableExport" style="width:100%;">
                                     <thead>
                                         <tr>
-                                            <th>Category Id</th>
-                                            <th>Category Name</th>
-                                            <th>Created At</th>
+                                            <th>Product Id</th>
+                                            <th>Product Name</th>
+                                            <th>Product Price</th>
+                                            <th>Description</th>
+                                            <th>Product Stock</th>
+                                            <th>Product Image</th>
+                                            <th>Product Category</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
@@ -30,9 +34,13 @@
                                         @foreach(var item in Model)
                                         {
                                             <tr>
-                                                <td>@item.CategoryId</td>
-                                                <td>@item.CategoryName</td>
-                                                <td>@item.Created_At</td>
+                                                <td>@item.ProductId</td>
+                                                <td>@item.ProductName</td>
+                                                <td>@item.ProductPrice</td>
+                                                <td>@item.ProductDescription</td>
+                                                <td>@item.ProductStock</td>
+                                                <td>@item.ProductImage</td>
+                                                <td>@item.Category</td>
                                                 <td>
                                                     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
                                                     <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CategoryId">Delete</a>
@@ -154,3 +162,64 @@
 <script src="~/dashboard/assets/bundles/datatables/export-tables/buttons.print.min.js"></script>
 <script src="~/dashboard/assets/js/page/datatables.js"></script>
 
+
+
+@* <h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductStock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductStock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
